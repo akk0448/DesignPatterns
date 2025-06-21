@@ -52,7 +52,7 @@ public class Main {
 
         String summary = "Enthusiastic backend developer with a strong grasp of Java, Spring Boot, and design patterns. Passionate about building clean and maintainable code.";
 
-        Resume resume = new Resume.ResumeBuilder()
+        Resume resume = Resume.builder()
                 .withPersonalInfo(personalInfo)
                 .withEducation(List.of(edu1, edu2))
                 .withExperience(List.of(exp1))

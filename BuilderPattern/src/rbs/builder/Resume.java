@@ -24,6 +24,10 @@ public class Resume {
         this.summary = builder.summary;
     }
 
+    public static ResumeBuilder builder() {
+        return new ResumeBuilder();
+    }
+
     public void printResume() {
         System.out.println("====================================");
         System.out.println("             RESUME                 ");
