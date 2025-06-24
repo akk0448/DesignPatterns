@@ -100,13 +100,9 @@ Each handler either processes and passes forward, or short-circuits the chain on
 
 ---
 
-## 📊 UML Diagram (Adapter Pattern)
-
-You can visualize the Chain of Responsibility Pattern like this:
+## 📊 UML Diagram (Chain of Responsibility Pattern)
 
 ![CoR UML](assets/CoR-pattern-uml.png)
-
----
 
 ---
 
@@ -121,5 +117,3 @@ This project showcases:
 - How behavioral patterns enhance modularity in software design
 
 The system is **modular**, **maintainable**, and ready to evolve into more advanced use cases like middleware frameworks, rule engines, or even request interceptors in real applications.
-
----
